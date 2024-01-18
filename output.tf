@@ -18,6 +18,3 @@ output "database_subnet_ids" {
   value = aws_subnet.database[*].id
 }
 
-output "default_vpc_id" {
-  value = data.aws_vpc.default.id
-}
